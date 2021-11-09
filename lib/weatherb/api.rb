@@ -6,7 +6,7 @@ require 'faraday_middleware/raise_error'
 module Weatherb
   # API object manage the default properties for fulfilling an API request.
   class API
-    API_URL = 'https://api.climacell.co/v3'
+    API_URL = 'https://api.tomorrow.io/v4'
 
     DEFAULT_FIELDS = %w[
       temp
